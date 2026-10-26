@@ -1,0 +1,90 @@
+PASS 1 initial stable selected font registered
+PASS 2 stable font alias retains original family
+PASS 3 ordinary text unmodified
+PASS 4 original text node retained
+PASS 5 input font / password exclusion
+PASS 6 open Shadow DOM
+PASS 7 direct-message style change without page reload
+PASS 8 Microsoft style switches behind stable registered family
+PASS 9 size change reuses loaded font
+PASS 10 size adjustment applied to emoji font faces
+PASS 11 Chinese / Latin font-size untouched
+PASS 12 duplicate updates share one font load
+PASS 13 new dynamic text applies without timeout delay
+PASS 14 input and code switches restore
+PASS 15 domain exclusion restores original fonts and releases selected faces
+PASS 16 original important inline font restored
+PASS 17 site font changes retained when disabling
+PASS 18 missing custom font reports error
+PASS 19 custom font has Noto fallback
+PASS 20 picker insertion preserves selection boundaries and emits input event
+PASS 21 focusing password prevents insertion into previous field
+PASS 22 scale bounds enforced
+PASS 23 domain boundary match
+PASS 24 old settings migrate / duplicate exclusions normalize
+PASS 25 popup.html immediately renders picker
+PASS 26 popup.html has all style choices
+PASS 27 unimported other font explicitly unavailable
+PASS 28 popup.html latest emoji filter
+PASS 29 popup.html Chinese search
+PASS 30 popup.html copy and recents
+PASS 31 popup targets original tab for insertion
+PASS 32 style update explicitly broadcasts to existing tabs
+PASS 33 popup.html size slider persists
+PASS 34 popup.html recent tab
+PASS 35 options.html immediately renders picker
+PASS 36 options.html has all style choices
+PASS 37 options.html latest emoji filter
+PASS 38 options.html Chinese search
+PASS 39 options.html copy and recents
+PASS 40 style update explicitly broadcasts to existing tabs
+PASS 41 options.html size slider persists
+PASS 42 options.html recent tab
+PASS 43 animated overlay anchors one known emoji
+PASS 44 animation preserves actual site text
+PASS 45 only loaded overlay gets transparent highlight
+PASS 46 animation stops and restores text visibility
+PASS 47 background broadcasts to existing and newly injected tabs
+PASS 48 only missing receivers bootstrapped; protected page failure isolated
+PASS 49 background insertion targets last focused iframe
+PASS 50 installation bootstrap registered
+PASS 51 privacy clear resets session and remembered frame
+PASS 52 one click opens full style list
+PASS 53 asynchronous UI synchronization keeps open menu and options
+PASS 54 disabled custom font cannot be selected
+PASS 55 one click switches between dropdowns
+PASS 56 category commits with a single option click
+PASS 57 saved skin tone is selected on opening
+PASS 58 skin preference persists immediately
+PASS 59 handshake appears once, not in every skin combination
+PASS 60 copy uses the selected skin-tone codepoint
+PASS 61 keyboard Home/Enter selects default skin
+PASS 62 Escape closes dropdown
+PASS 63 outside pointer closes dropdown
+PASS 64 size-only update preserves picker DOM and focus targets
+PASS 65 catalog collapses to 1927 visual families
+PASS 66 every supported family keeps requested skin or neutral fallback across six preferences
+PASS 67 skin merge preserves distinct gender pairings
+PASS 68 unknown skin setting safely defaults
+PASS 69 legacy recent skin variants collapse to one family
+PASS 70 privacy button removes custom font, recents, exclusions and preferences
+PASS 71 help sections match requested order
+PASS 72 privacy and XPI installation documents included
+PASS 73 picker skin changes do not reload fonts or rewrite existing webpage skin
+PASS 74 root style resets retain direct selected font without variable dependency
+PASS 75 app variable reset cannot unset selected emoji family
+PASS 76 site inline font replacement promptly reapplies selected font
+PASS 77 same family with downgraded priority is repaired
+PASS 78 framework text-node replacement retains selected family
+PASS 79 repeated virtual list remounts apply to new emoji labels
+PASS 80 style switch atomically replaces selected face without stale faces or rewriting labels
+PASS 81 registered face removal is repaired on next page mutation without network reload
+PASS 82 disable restores latest site font, releases faces and leaves page root and ordinary text untouched
+PASS 83 50 root class/style updates cause zero subtree scans and font writes
+PASS 84 explicit rescan does not rewrite already applied font declarations
+PASS 85 large inserted subtree yields to timers before completing scan
+PASS 86 bounded batches eventually finish all 3000 inserted emoji labels
+ALL 86 CHECKS PASSED
+
+Packaging: XPI manifest at archive root, stable Gecko ID, Firefox background scripts, 6 WOFF2 fonts, 230 animated WebPs, included privacy text, archive CRC and resource references verified.
+Browser integration NOT verified. Logic tests mock browser/FontFace/geometry APIs. Existing static fonts and artwork were not changed in 1.1.4.

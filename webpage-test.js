@@ -1,0 +1,1 @@
+document.querySelector('#add').addEventListener('click',()=>{const p=document.createElement('p');p.textContent='動態加入的 Emoji：🙂‍↔️ 🫵🏻 👩🏽‍🚀';document.querySelector('#dynamic').append(p)});document.querySelector('#shadow').attachShadow({mode:'open'}).innerHTML='<p>Open Shadow DOM：🙂‍↔️ 🫵🏻</p>';

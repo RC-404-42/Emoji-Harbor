@@ -1,0 +1,24 @@
+表情補給站 Emoji Harbor 1.1.4
+GPT 協助開發、編寫程式與使用說明。
+
+這版改善：
+- 效能修正：不相關的樣式變更不再重掃子樹，新增內容分批掃描，取消定時全頁重掃。
+- 眨眼喝奶茶圖示改為平面插畫風格。
+- 說明移除 Firefox 簽署教學，只保留安裝方式。
+- Chrome／Edge／Vivaldi／Brave 安裝說明。
+- 字型使用固定本機名稱，避免網站重設根節點樣式後失效。
+- 網頁重建文字、覆寫字型或降級樣式優先權時，自動重新套用。
+
+Chrome／Edge／Vivaldi／Brave：解壓後在擴充管理頁開啟開發人員模式，載入 Chrome 資料夾。
+Chrome 更新：把新版 Chrome 資料夾內容覆蓋到原安裝位置，再到 chrome://extensions 按重新載入。已開的網站首次重整一次。
+Firefox 正式包：about:addons → 齒輪 → 從檔案安裝附加元件，選發布者提供的已簽署 XPI。
+Firefox 開發包：本次附帶的 Emoji-Harbor-Firefox-v1.1.4-unsigned.xpi 尚未簽署，請在 about:debugging#/runtime/this-firefox 暫時載入，完全退出再重開後須重載。
+
+詳細說明請開啟 Start-Here.html。隱私聲明另附 PRIVACY.md、Privacy.html。
+膚色選項控制選字盤與新插入的表情，不會修改網頁原本的膚色。
+六套靜態字型和230個動畫均為本機素材；其他字型可自行匯入。
+
+86 項功能邏輯檢查通過，包含根節點樣式重設與動態清單重建的模擬測試。
+尚未完成本版 Chrome／Firefox／Win10 及 Discord 真實頁面的實機視覺驗證。
+Chrome 資料夾及 XPI 內含執行原始碼；XPI 是 ZIP 格式，可解壓查看。
+公開分享請保留授權：程式碼 MIT 不代表所有圖案與字型都屬 MIT，詳見 Chrome/licenses。
