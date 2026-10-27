@@ -1,0 +1,38 @@
+[
+  {
+    "font": "twemoji.woff2",
+    "glyphs": 3972,
+    "bytes": 5103476,
+    "sha256": "c6aaa0cfbf83727f6c41e65b64b88c70897ffa39c2ecfa29434cae6f1f5fb2af"
+  },
+  {
+    "font": "fluentflat.woff2",
+    "glyphs": 3972,
+    "bytes": 5233248,
+    "sha256": "060dceee254b8d1b1fe3dce861ea87ba47b7d335e5012d8e8bed54aecf821728"
+  },
+  {
+    "font": "apple.woff2",
+    "glyphs": 3972,
+    "bytes": 8283120,
+    "sha256": "0c34aed75dd0c16feb25423557c36f5568f4b1d00fc85a7f18e1e89b411f2dcf"
+  },
+  {
+    "font": "noto.woff2",
+    "glyphs": 3972,
+    "bytes": 8101340,
+    "sha256": "89303717b1e4121dfa1134f31fbd3f9f0dc3b8c3be845b68362d658bd06fcea2"
+  },
+  {
+    "font": "fluent3d.woff2",
+    "glyphs": 3972,
+    "bytes": 7589532,
+    "sha256": "d494f5d0990b1b999ae4bf6bc238361e36d882f790b1ae8d017df901e6870fe7"
+  },
+  {
+    "font": "openmoji.woff2",
+    "glyphs": 3972,
+    "bytes": 3882428,
+    "sha256": "bfe5956765feac2336718a86714aadab60cd90e40988ed67d077b1af733fa9d4"
+  }
+]
