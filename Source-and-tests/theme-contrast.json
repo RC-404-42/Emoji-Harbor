@@ -1,0 +1,22 @@
+[
+  {
+    "theme": "green",
+    "minimum_text_contrast": 7.28
+  },
+  {
+    "theme": "oat",
+    "minimum_text_contrast": 5.69
+  },
+  {
+    "theme": "sakura",
+    "minimum_text_contrast": 5.11
+  },
+  {
+    "theme": "night",
+    "minimum_text_contrast": 7.74
+  },
+  {
+    "theme": "earl",
+    "minimum_text_contrast": 4.93
+  }
+]
