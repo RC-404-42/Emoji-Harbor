@@ -1,0 +1,44 @@
+[
+  {
+    "font": "apple.woff2",
+    "variation_pairs": 219,
+    "original_sequences_checked": 5295,
+    "normalized_ligatures_checked": 2563,
+    "sha256": "7b3db23c34e282aa2aebeaac5d0e0ebf0afd02f6c2d8d3bf8e9d72b2b34664fc"
+  },
+  {
+    "font": "fluent3d.woff2",
+    "variation_pairs": 219,
+    "original_sequences_checked": 5295,
+    "normalized_ligatures_checked": 2563,
+    "sha256": "bcfdb054a8cc551113ad68b38110acc080463d50491caa5cdf0ec5e492b3a4d3"
+  },
+  {
+    "font": "fluentflat.woff2",
+    "variation_pairs": 219,
+    "original_sequences_checked": 5295,
+    "normalized_ligatures_checked": 2563,
+    "sha256": "f2a6eee0ec7008b7e4954918e17f08f948c5d8c4afc46303091765f376e6c0a6"
+  },
+  {
+    "font": "noto.woff2",
+    "variation_pairs": 219,
+    "original_sequences_checked": 5295,
+    "normalized_ligatures_checked": 2563,
+    "sha256": "c3ef5f91750b4bc5590357f13504a4d257eb235c3ad4a6ab6905c6f3694aa38e"
+  },
+  {
+    "font": "openmoji.woff2",
+    "variation_pairs": 219,
+    "original_sequences_checked": 5295,
+    "normalized_ligatures_checked": 2563,
+    "sha256": "2ace90c72614342529768395f57b9f56cb3168f38eed19b926aa3b7ff7fa9c4c"
+  },
+  {
+    "font": "twemoji.woff2",
+    "variation_pairs": 219,
+    "original_sequences_checked": 5295,
+    "normalized_ligatures_checked": 2563,
+    "sha256": "fa891ebf7db9b36f5a42957ddb70a5a44fc222dbb69e684f724bcdcfc31293dd"
+  }
+]
